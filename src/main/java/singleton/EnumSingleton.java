@@ -3,7 +3,7 @@ package singleton;
 /**
  * @author: qintingshuang
  * @date: 2019/11/9 12:26
- * @description: 枚举单例最大的优点是避免反射攻击
+ * @description: 枚举单例最大的优点是避免反射攻击 线程安全
  *  因为在 反射的源码中,有这么一句
  *  if ((clazz.getModifiers() & Modifier.ENUM) != 0)
  *             throw new IllegalArgumentException("Cannot reflectively create enum objects");

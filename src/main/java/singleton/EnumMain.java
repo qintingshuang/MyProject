@@ -22,6 +22,9 @@ public class EnumMain {
       EnumSingleton singleton=  QINTINGSHUANG;
 
       log.info(singleton.toString());
+
+        Singleton_3.getInstance();
+
     }
 
 
