@@ -2,7 +2,7 @@ package singleton;
 
 import lombok.extern.slf4j.Slf4j;
 
-import static singleton.EnumSingleton.QINTINGSHUANG;
+import static singleton.Singleton_enum.QINTINGSHUANG;
 
 /**
  * @author: qintingshuang
@@ -19,7 +19,7 @@ public class EnumMain {
 
     public static void  main(String[] args){
 
-      EnumSingleton singleton=  QINTINGSHUANG;
+      Singleton_enum singleton=  QINTINGSHUANG;
 
       log.info(singleton.toString());
 

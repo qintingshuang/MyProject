@@ -9,7 +9,7 @@ package singleton;
  *             throw new IllegalArgumentException("Cannot reflectively create enum objects");
  * 不能实例化枚举类型
  */
-public enum EnumSingleton {
+public enum Singleton_enum {
     /**
      * 加载时，会创建类型为EnumSingleton的实例对象QINTINGSHUANG
      *
@@ -33,36 +33,36 @@ public enum EnumSingleton {
  * // Decompiled by Jad v1.5.8e2. Copyright 2001 Pavel Kouznetsov.
  * // Jad home page: http://kpdus.tripod.com/jad.html
  * // Decompiler options: packimports(3)
- * // Source File Name:   EnumSingleton.java
+ * // Source File Name:   Singleton_enum.java
  *
  * package singleton;
  *
  *
- * public final class EnumSingleton extends Enum
+ * public final class Singleton_enum extends Enum
  * {
  *
- *     public static EnumSingleton[] values()
+ *     public static Singleton_enum[] values()
  *     {
- *         return (EnumSingleton[])$VALUES.clone();
+ *         return (Singleton_enum[])$VALUES.clone();
  *     }
  *
- *     public static EnumSingleton valueOf(String name)
+ *     public static Singleton_enum valueOf(String name)
  *     {
- *         return (EnumSingleton)Enum.valueOf(singleton/EnumSingleton, name);
+ *         return (Singleton_enum)Enum.valueOf(singleton/Singleton_enum, name);
  *     }
  *
- *     private EnumSingleton(String s, int i)
+ *     private Singleton_enum(String s, int i)
  *     {
  *         super(s, i);
  *     }
  *
- *     public static final EnumSingleton QINTINGSHUANG;
- *     private static final EnumSingleton $VALUES[];
+ *     public static final Singleton_enum QINTINGSHUANG;
+ *     private static final Singleton_enum $VALUES[];
  *
  *     static
  *     {
- *         QINTINGSHUANG = new EnumSingleton("QINTINGSHUANG", 0);
- *         $VALUES = (new EnumSingleton[] {
+ *         QINTINGSHUANG = new Singleton_enum("QINTINGSHUANG", 0);
+ *         $VALUES = (new Singleton_enum[] {
  *             QINTINGSHUANG
  *         });
  *     }
