@@ -5,9 +5,10 @@ import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 /**
  * @author qintingshuang
@@ -24,6 +25,17 @@ public class StreamLambda {
         private String firstName, lastName, job, gender;
         private Integer age, salary;
 
+        @Override
+        public String toString() {
+            return "Person{" +
+                    "firstName='" + firstName + '\'' +
+                    ", lastName='" + lastName + '\'' +
+                    ", job='" + job + '\'' +
+                    ", gender='" + gender + '\'' +
+                    ", age=" + age +
+                    ", salary=" + salary +
+                    '}';
+        }
     }
 
 
@@ -76,7 +88,93 @@ public class StreamLambda {
     }
 
 
+    /**
+     * 过滤得到大于1300的php程序员
+     */
+    @Test
+    public void filterProgrammer() {
+        phpProgrammers.stream().filter(person -> person.getSalary() > 1300)
+                .forEach((p) -> log.info(p.getFirstName()));
+    }
+
+    Predicate<Person> ageFilter = person -> person.getAge() > 25;
+    Predicate<Person> nameFilter = person -> person.getFirstName().length() > 5;
+
+    @Test
+    public void filter2Programmer() {
+        phpProgrammers.stream().filter(person -> person.getSalary() > 1300)
+                .filter(ageFilter)
+                .filter(nameFilter)
+                .forEach((p) -> log.info(p.getFirstName()));
+    }
+
+    /**
+     * 过滤后，刷选前三个
+     */
+    @Test
+    public void limitProgrammer() {
+        phpProgrammers.stream().filter(person -> person.getSalary() > 1300)
+                .limit(3)
+                .forEach(person -> log.info(person.getFirstName()));
+    }
 
 
+    /**
+     * 排序，转换为 list
+     */
+    @Test
+    public void sortToListProgrammer() {
+        List sortProgrammers = phpProgrammers.stream()
+                .sorted((p1, p2) -> p2.getSalary() - p1.getSalary())
+                .collect(Collectors.toList());
+        sortProgrammers.forEach(person -> log.info(person.toString()));
+    }
+
+    /**
+     * 求待遇最高的那个人
+     * 这个min 和max 是被排序影响的，排序从大到小，求第一个
+     */
+    @Test
+    public void maxProgrammer() {
+        Person person = phpProgrammers.stream().min((p1, p2) -> p1.getSalary() - p2.getSalary()).get();
+        log.info(person.toString());
+    }
+
+
+    /**
+     * map映射用法 重点！！！！！！
+     * map  collect 转换为String
+     * map  collect 转换为Set
+     * map  collect 转换为list
+     */
+    @Test
+    public void mapProgrammer() {
+        String phpDeveloper = phpProgrammers.stream().map(Person::getFirstName).collect(Collectors.joining(";"));
+        log.info(phpDeveloper);
+        Set<String> phpDeveloper1 = phpProgrammers.stream().map(Person::getLastName).collect(Collectors.toSet());
+        TreeSet phpDeveloper2 = phpProgrammers.stream().map(Person::getJob).collect(Collectors.toCollection(TreeSet::new));
+        List phpDeveloper3 = phpProgrammers.stream().map(Person::getSalary).collect(Collectors.toList());
+
+    }
+
+
+    /**
+     * 并行流式求和
+     */
+    @Test
+    public void parallelProgrammer() {
+        Integer totalSalary = javaProgrammers.parallelStream().mapToInt(p -> p.getSalary()).sum();
+        log.info(totalSalary.toString());
+    }
+
+
+    /**
+     * 统计数据 可以获取该list的 min  max avg sum
+     */
+    @Test
+    public void statisticsProgrammer() {
+        IntSummaryStatistics totalSalary = javaProgrammers.stream().mapToInt(p -> p.getAge()).summaryStatistics();
+        log.info(totalSalary.toString());
+    }
 
 }

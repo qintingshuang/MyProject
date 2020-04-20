@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29aef865-a943-4411-b296-c3fdbf02067f" name="Default Changelist" comment="多线程">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="29aef865-a943-4411-b296-c3fdbf02067f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,29 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1734#1735#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+            <state relative-caret-position="2482">
+              <caret line="161" column="11" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,19 +28,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Iterable.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            <state relative-caret-position="88">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Consumer.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            <state relative-caret-position="107">
+              <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -70,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="1479">
               <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
             </state>
           </provider>
@@ -79,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="7157">
               <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
               <folding>
                 <element signature="e#6252#6253#0" expanded="true" />
@@ -92,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="748">
               <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
@@ -217,8 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,72 +272,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamLambda.foreachProgrammer">
-    <configuration name="BaseLambda.baselLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.BaseLambda" />
-      <option name="METHOD_NAME" value="baselLambda" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseLambda.baselamdba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.BaseLambda" />
-      <option name="METHOD_NAME" value="baselamdba" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseLambda.lambdaRunnable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.BaseLambda" />
-      <option name="METHOD_NAME" value="lambdaRunnable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseLambda.lambdaSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.BaseLambda" />
-      <option name="METHOD_NAME" value="lambdaSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamLambda.foreachProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamLambda.statisticsProgrammer">
+    <configuration name="StreamLambda.mapProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
@@ -360,7 +283,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="lambda" />
       <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
-      <option name="METHOD_NAME" value="foreachProgrammer" />
+      <option name="METHOD_NAME" value="mapProgrammer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamLambda.maxProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
+      <option name="METHOD_NAME" value="maxProgrammer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamLambda.parallelProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
+      <option name="METHOD_NAME" value="parallelProgrammer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamLambda.sortToListProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
+      <option name="METHOD_NAME" value="sortToListProgrammer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamLambda.statisticsProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
+      <option name="METHOD_NAME" value="statisticsProgrammer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamLambda.foreachProgrammer" />
-        <item itemvalue="JUnit.BaseLambda.lambdaSort" />
-        <item itemvalue="JUnit.BaseLambda.baselLambda" />
-        <item itemvalue="JUnit.BaseLambda.lambdaRunnable" />
-        <item itemvalue="JUnit.BaseLambda.baselamdba" />
+        <item itemvalue="JUnit.StreamLambda.statisticsProgrammer" />
+        <item itemvalue="JUnit.StreamLambda.parallelProgrammer" />
+        <item itemvalue="JUnit.StreamLambda.mapProgrammer" />
+        <item itemvalue="JUnit.StreamLambda.maxProgrammer" />
+        <item itemvalue="JUnit.StreamLambda.sortToListProgrammer" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +385,9 @@
       <workItem from="1578320364429" duration="3834000" />
       <workItem from="1580523748216" duration="11927000" />
       <workItem from="1587189380778" duration="972000" />
-      <workItem from="1587190404080" duration="6779000" />
+      <workItem from="1587190404080" duration="10403000" />
+      <workItem from="1587348667171" duration="105000" />
+      <workItem from="1587386045000" duration="2948000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式之枚举单例">
       <created>1573310843598</created>
@@ -421,43 +410,50 @@
       <option name="project" value="LOCAL" />
       <updated>1580523943731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加lambda表达式示例">
+      <created>1587197293776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587197293776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseLambda_lambdaSort - 2020.04.18 at 14h 56m 48s.xml">
-      <configuration name="BaseLambda.lambdaSort" configurationId="JUnit" />
+    <history-entry file="StreamLambda_maxProgrammer - 2020.04.20 at 20h 50m 25s.xml">
+      <configuration name="StreamLambda.maxProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseLambda_lambdaSort - 2020.04.18 at 14h 57m 47s.xml">
-      <configuration name="BaseLambda.lambdaSort" configurationId="JUnit" />
+    <history-entry file="StreamLambda_maxProgrammer - 2020.04.20 at 20h 51m 03s.xml">
+      <configuration name="StreamLambda.maxProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseLambda_lambdaSort - 2020.04.18 at 14h 58m 36s.xml">
-      <configuration name="BaseLambda.lambdaSort" configurationId="JUnit" />
+    <history-entry file="StreamLambda_maxProgrammer - 2020.04.20 at 20h 51m 21s.xml">
+      <configuration name="StreamLambda.maxProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseLambda_lambdaSort - 2020.04.18 at 14h 58m 51s.xml">
-      <configuration name="BaseLambda.lambdaSort" configurationId="JUnit" />
+    <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 04m 45s.xml">
+      <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseLambda_lambdaSort - 2020.04.18 at 15h 00m 32s.xml">
-      <configuration name="BaseLambda.lambdaSort" configurationId="JUnit" />
+    <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 05m 08s.xml">
+      <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseLambda_lambdaSort - 2020.04.18 at 15h 01m 34s.xml">
-      <configuration name="BaseLambda.lambdaSort" configurationId="JUnit" />
+    <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 05m 30s.xml">
+      <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseLambda_lambdaSort - 2020.04.18 at 15h 04m 15s.xml">
-      <configuration name="BaseLambda.lambdaSort" configurationId="JUnit" />
+    <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 05m 50s.xml">
+      <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamLambda_foreachProgrammer - 2020.04.18 at 15h 48m 05s.xml">
-      <configuration name="StreamLambda.foreachProgrammer" configurationId="JUnit" />
+    <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 14m 15s.xml">
+      <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamLambda_foreachProgrammer - 2020.04.18 at 15h 57m 09s.xml">
-      <configuration name="StreamLambda.foreachProgrammer" configurationId="JUnit" />
+    <history-entry file="StreamLambda_parallelProgrammer - 2020.04.20 at 21h 18m 23s.xml">
+      <configuration name="StreamLambda.parallelProgrammer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamLambda_foreachProgrammer - 2020.04.18 at 15h 58m 11s.xml">
-      <configuration name="StreamLambda.foreachProgrammer" configurationId="JUnit" />
+    <history-entry file="StreamLambda_statisticsProgrammer - 2020.04.20 at 21h 21m 32s.xml">
+      <configuration name="StreamLambda.statisticsProgrammer" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65371000" />
+    <option name="totallyTimeSpent" value="72048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,9 +466,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18644068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19128329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -480,11 +475,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="MyBatis Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5185185" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31569666" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.26631394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -496,6 +490,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -557,7 +552,8 @@
     <MESSAGE value="单例模式之枚举单例" />
     <MESSAGE value="单例模式之饿汉模式、懒汉模式，共5种模式" />
     <MESSAGE value="多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程" />
+    <MESSAGE value="增加lambda表达式示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加lambda表达式示例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,11 +590,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java</url>
-          <line>74</line>
+          <line>86</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -811,6 +813,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7157">
+          <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18615">
@@ -829,73 +888,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="107">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state relative-caret-position="88">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        <state relative-caret-position="128">
+          <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+        <state relative-caret-position="2482">
+          <caret line="161" column="11" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
