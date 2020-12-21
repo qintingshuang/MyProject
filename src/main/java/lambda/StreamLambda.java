@@ -142,7 +142,7 @@ public class StreamLambda {
 
 
     /**
-     * map映射用法 重点！！！！！！
+     * map映射用法,获取其中的一个字段 重点！！！！！！
      * map  collect 转换为String
      * map  collect 转换为Set
      * map  collect 转换为list

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29aef865-a943-4411-b296-c3fdbf02067f" name="Default Changelist" comment="">
+    <list default="true" id="29aef865-a943-4411-b296-c3fdbf02067f" name="Default Changelist" comment="增加lambda stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algotithm/String/Symmetrical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algotithm/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algotithm/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basic/basicJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algotithm/SortingAlgotithm.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +20,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericsMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2482">
-              <caret line="161" column="11" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
+            <state relative-caret-position="185">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algotithm/sort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algotithm/sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algotithm/String/Symmetrical.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,37 +64,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            <state relative-caret-position="84">
+              <caret line="5418" column="26" selection-start-line="5418" selection-start-column="26" selection-end-line="5418" selection-end-column="26" />
+              <folding>
+                <element signature="e#187629#187630#0" expanded="true" />
+                <element signature="e#187672#187673#0" expanded="true" />
+                <element signature="e#204938#204939#0" expanded="true" />
+                <element signature="e#204985#204986#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7157">
+            <state relative-caret-position="7123">
               <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
               <folding>
                 <element signature="e#6252#6253#0" expanded="true" />
@@ -87,12 +102,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -151,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/simpletSychronized/SimpleSychronized.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/simpleSychronized/SimpleSychronized.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/simpleSychronized/ticketpool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algotithm/SortingAlgotithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/simpleSychronized/Ticketpool.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/fourMethodThread/ThreadImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/fourMethodThread/ThreadMain.java" />
@@ -169,7 +183,13 @@
         <option value="$PROJECT_DIR$/src/main/java/lamdba/BaseLamdba.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/BaseLamdba.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algotithm/SortingAlgotithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algotithm/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basic/basicJava.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algotithm/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algotithm/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algotithm/String/Symmetrical.java" />
       </list>
     </option>
   </component>
@@ -191,9 +211,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
-    <option name="y" value="-12" />
     <option name="width" value="1941" />
-    <option name="height" value="1050" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -205,7 +224,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,12 +255,81 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algotithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algotithm" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algotithm" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeSetCollection.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generics" type="462c0819:PsiDirectoryNode" />
+              <item name="GenericeInterface.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,67 +359,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamLambda.statisticsProgrammer">
-    <configuration name="StreamLambda.mapProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Symmetrical">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algotithm.sort.BubbleSort" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="algotithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
-      <option name="METHOD_NAME" value="mapProgrammer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamLambda.maxProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algotithm.sort.QuickSort" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="algotithm.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
-      <option name="METHOD_NAME" value="maxProgrammer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamLambda.parallelProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Symmetrical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algotithm.String.Symmetrical" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.*" />
+          <option name="PATTERN" value="algotithm.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
-      <option name="METHOD_NAME" value="parallelProgrammer" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamLambda.sortToListProgrammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.StreamLambda" />
-      <option name="METHOD_NAME" value="sortToListProgrammer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,13 +415,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="basicJava.iTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic" />
+      <option name="MAIN_CLASS_NAME" value="basic.basicJava" />
+      <option name="METHOD_NAME" value="iTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Symmetrical" />
+        <item itemvalue="JUnit.basicJava.iTest" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="JUnit.StreamLambda.statisticsProgrammer" />
-        <item itemvalue="JUnit.StreamLambda.parallelProgrammer" />
-        <item itemvalue="JUnit.StreamLambda.mapProgrammer" />
-        <item itemvalue="JUnit.StreamLambda.maxProgrammer" />
-        <item itemvalue="JUnit.StreamLambda.sortToListProgrammer" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +465,22 @@
       <workItem from="1587189380778" duration="972000" />
       <workItem from="1587190404080" duration="10403000" />
       <workItem from="1587348667171" duration="105000" />
-      <workItem from="1587386045000" duration="2948000" />
+      <workItem from="1587386045000" duration="3021000" />
+      <workItem from="1599468626882" duration="4405000" />
+      <workItem from="1599547135438" duration="13360000" />
+      <workItem from="1602381439003" duration="1019000" />
+      <workItem from="1602467468638" duration="674000" />
+      <workItem from="1604994599123" duration="1224000" />
+      <workItem from="1605850769194" duration="1151000" />
+      <workItem from="1605865264750" duration="3299000" />
+      <workItem from="1606287561727" duration="1278000" />
+      <workItem from="1606294389578" duration="779000" />
+      <workItem from="1606295245811" duration="821000" />
+      <workItem from="1606302640824" duration="1220000" />
+      <workItem from="1606304270971" duration="665000" />
+      <workItem from="1607324654362" duration="1772000" />
+      <workItem from="1608174885963" duration="729000" />
+      <workItem from="1608445481819" duration="4692000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式之枚举单例">
       <created>1573310843598</created>
@@ -417,25 +510,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587197293776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加lambda stream">
+      <created>1587389037415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587389037415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamLambda_maxProgrammer - 2020.04.20 at 20h 50m 25s.xml">
-      <configuration name="StreamLambda.maxProgrammer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamLambda_maxProgrammer - 2020.04.20 at 20h 51m 03s.xml">
-      <configuration name="StreamLambda.maxProgrammer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamLambda_maxProgrammer - 2020.04.20 at 20h 51m 21s.xml">
-      <configuration name="StreamLambda.maxProgrammer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 04m 45s.xml">
-      <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 05m 08s.xml">
-      <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StreamLambda_mapProgrammer - 2020.04.20 at 21h 05m 30s.xml">
       <configuration name="StreamLambda.mapProgrammer" configurationId="JUnit" />
     </history-entry>
@@ -451,9 +536,24 @@
     <history-entry file="StreamLambda_statisticsProgrammer - 2020.04.20 at 21h 21m 32s.xml">
       <configuration name="StreamLambda.statisticsProgrammer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="basicJava_iTest - 2020.10.11 at 10h 01m 09s.xml">
+      <configuration name="basicJava.iTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="basicJava_iTest - 2020.10.11 at 10h 01m 25s.xml">
+      <configuration name="basicJava.iTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="basicJava_iTest - 2020.10.11 at 10h 01m 35s.xml">
+      <configuration name="basicJava.iTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="basicJava_iTest - 2020.10.11 at 10h 05m 23s.xml">
+      <configuration name="basicJava.iTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="basicJava_iTest - 2020.10.11 at 10h 10m 35s.xml">
+      <configuration name="basicJava.iTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72048000" />
+    <option name="totallyTimeSpent" value="109209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,8 +566,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19128329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30912027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -478,7 +579,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5185185" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.26631394" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4691358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -489,7 +590,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" weight="0.329806" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,9 +601,10 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
-      <window_info anchor="right" id="Json Parser" order="10" />
-      <window_info anchor="right" id="Redis Servers" order="11" />
+      <window_info anchor="right" id="Redis Servers" order="9" sideWeight="0.5026455" side_tool="true" weight="0.3292978" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
+      <window_info anchor="right" id="Json Parser" order="11" />
+      <window_info anchor="right" id="Redis Explorer" order="12" sideWeight="0.4973545" weight="0.3292978" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +655,8 @@
     <MESSAGE value="单例模式之饿汉模式、懒汉模式，共5种模式" />
     <MESSAGE value="多线程" />
     <MESSAGE value="增加lambda表达式示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加lambda表达式示例" />
+    <MESSAGE value="增加lambda stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加lambda stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -602,8 +705,25 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algotithm/String/Symmetrical.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algotithm/String/Symmetrical.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Character.toLowerCase(s.charAt(l))" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar!/lombok/extern/slf4j/Slf4j.class" />
@@ -685,16 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algotithm/SortingAlgotithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/singleton/EnumMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -761,17 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericsMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericsSuper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -789,37 +888,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericeInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericsClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/collection/TreeSetCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,6 +909,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10965">
+          <caret line="694" column="16" selection-start-line="694" selection-start-column="16" selection-end-line="694" selection-end-column="16" />
+          <folding>
+            <element signature="e#24380#24381#0" expanded="true" />
+            <element signature="e#24405#24406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basic/basicJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12920">
+          <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collection/TreeSetCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericeInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
@@ -846,7 +994,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7157">
+        <state relative-caret-position="7123">
           <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
           <folding>
             <element signature="e#6252#6253#0" expanded="true" />
@@ -863,12 +1011,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -888,31 +1036,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/generics/GenericsMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+        <state relative-caret-position="185">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algotithm/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="173">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algotithm/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="806" column="13" selection-start-line="806" selection-start-column="13" selection-end-line="806" selection-end-column="13" />
+        <state relative-caret-position="173">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="161" column="11" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
+        <state relative-caret-position="84">
+          <caret line="5418" column="26" selection-start-line="5418" selection-start-column="26" selection-end-line="5418" selection-end-column="26" />
+          <folding>
+            <element signature="e#187629#187630#0" expanded="true" />
+            <element signature="e#187672#187673#0" expanded="true" />
+            <element signature="e#204938#204939#0" expanded="true" />
+            <element signature="e#204985#204986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algotithm/String/Symmetrical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
