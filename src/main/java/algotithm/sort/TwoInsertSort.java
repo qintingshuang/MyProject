@@ -8,5 +8,4 @@ package algotithm.sort;
 public class TwoInsertSort {
 
 
-
 }
