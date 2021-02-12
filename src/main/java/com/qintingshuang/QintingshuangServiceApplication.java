@@ -1,4 +1,4 @@
-package com.qintingshuang.web;
+package com.qintingshuang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -2,46 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29aef865-a943-4411-b296-c3fdbf02067f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserRegisterEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/web/QintingshuangServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/web/controller/UserRegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserEmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algotithm/String/Symmetrical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/algotithm/String/Symmetrical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algotithm/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/algotithm/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algotithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/algotithm/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algotithm/sort/TwoInsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/algotithm/sort/TwoInsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/basic/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/basic/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/basicJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/basic/basicJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/TreeSetCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/collection/TreeSetCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/GenericeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/generics/GenericeInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/GenericsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/generics/GenericsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/GenericsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/generics/GenericsMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/GenericsSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/generics/GenericsSuper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/BaseLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/lambda/BaseLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lambda/StreamLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/lambda/StreamLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/reflect/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/Reflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/reflect/Reflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/EnumMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/singleton/EnumMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Singleton_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/singleton/Singleton_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Singleton_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/singleton/Singleton_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Singleton_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/singleton/Singleton_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Singleton_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/singleton/Singleton_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Singleton_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/singleton/Singleton_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton/Singleton_enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/singleton/Singleton_enum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadLocal/ThreadLocalInstance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadLocal/UnThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/thread/ThreadLocal/UnThreadLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/ThreadLocal/UseThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/thread/ThreadLocal/UseThreadLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/fourMethodThread/RunableInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/thread/fourMethodThread/RunableInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/fourMethodThread/ThreadImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/thread/fourMethodThread/ThreadImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/fourMethodThread/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/thread/fourMethodThread/ThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/pool/ThreadPoolExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/thread/pool/ThreadPoolExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qintingshuang/web/QintingshuangServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/QintingshuangServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qintingshuang/web/controller/UserRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/web/controller/UserRegisterController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,42 +20,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/QintingshuangServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="70">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/web/QintingshuangServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/web/controller/UserRegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="248">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/JSONObject.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding>
+                <element signature="e#1278#1279#0" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserRegisterEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="173">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
@@ -114,45 +72,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/ApplicationEvent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="127">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE.jar!/org/springframework/context/ApplicationEvent.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserEmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="282">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE.jar!/org/springframework/core/annotation/Order.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="153">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/CouponService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/event/EventListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -179,9 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/thread/simpleSychronized/SimpleSychronized.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/simpleSychronized/ticketpool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/thread/simpleSychronized/Ticketpool.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/fourMethodThread/ThreadImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/fourMethodThread/ThreadMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/Singleton_3.java" />
@@ -230,6 +208,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserRegisterEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qintingshuang/web/controller/UserRegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserEmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/CouponService.java" />
       </list>
     </option>
   </component>
@@ -338,25 +319,6 @@
               <item name="MyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qintingshuang" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qintingshuang" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -455,11 +417,11 @@
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qintingshuang.web.*" />
+          <option name="PATTERN" value="com.qintingshuang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qintingshuang.web.QintingshuangServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qintingshuang.QintingshuangServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -521,7 +483,7 @@
       <workItem from="1612232730599" duration="1194000" />
       <workItem from="1612320138306" duration="3641000" />
       <workItem from="1612786599836" duration="51000" />
-      <workItem from="1612870431419" duration="7470000" />
+      <workItem from="1612870431419" duration="11635000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式之枚举单例">
       <created>1573310843598</created>
@@ -586,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611997052158</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.修改为springboot项目">
+      <created>1612952219147</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612952219147</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -622,7 +591,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141213000" />
+    <option name="totallyTimeSpent" value="145378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,9 +604,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34866828" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34866828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -645,12 +615,12 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Spring" weight="0.329806" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.329806" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32804233" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48677248" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5467372" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4479718" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -663,7 +633,7 @@
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" weight="0.329806" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Bean Validation" weight="0.3292978" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -732,7 +702,8 @@
     <MESSAGE value="增加threadLocal的理解" />
     <MESSAGE value="1.抽象类与接口的区别 2.StringBuilder线程不安全，StringBuffer线程安全" />
     <MESSAGE value="1.线程池基本原理" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.线程池基本原理" />
+    <MESSAGE value="1.修改为springboot项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修改为springboot项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,62 +773,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/generics/GenericsClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2754">
-          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10965">
-          <caret line="694" column="16" selection-start-line="694" selection-start-column="16" selection-end-line="694" selection-end-column="16" />
-          <folding>
-            <element signature="e#24380#24381#0" expanded="true" />
-            <element signature="e#24405#24406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/lambda/BaseLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12920">
@@ -1181,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/web/QintingshuangServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1213,10 +1121,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.56/fastjson-1.2.56.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/web/controller/UserRegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/QintingshuangServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserRegisterEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="173">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
@@ -1229,14 +1172,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/web/controller/UserRegisterController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="127">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/context/event/EventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE.jar!/org/springframework/core/annotation/Order.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/UserEmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/observed/CouponService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
           </folding>
         </state>
       </provider>
