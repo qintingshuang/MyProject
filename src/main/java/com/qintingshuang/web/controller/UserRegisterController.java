@@ -2,6 +2,8 @@ package com.qintingshuang.web.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.qintingshuang.base.design.observed.UserService;
+import com.qintingshuang.base.design.strategic.BizType;
+import com.qintingshuang.base.design.strategic.PermissionService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +19,7 @@ import javax.annotation.Resource;
  * @create 2021-02-10 17:47
  * @description
  **/
-@Api(tags = "用户注册测试")
+@Api(tags = "设计模式")
 @RequestMapping("/qintingshuang/v1.0")
 @RestController
 public class UserRegisterController {
@@ -25,10 +27,23 @@ public class UserRegisterController {
     @Resource
     UserService userService;
 
-    @ApiOperation("触发接口")
+
+    @Autowired
+    PermissionService permissionService;
+
+    @ApiOperation("观察者模式")
     @GetMapping("/user/Register")
     public JSONObject businessClick(@RequestParam("userName") String userName) {
         userService.register(userName);
         return new JSONObject();
     }
+
+
+    @ApiOperation("策略模式")
+    @GetMapping("/user/permission")
+    public void permission(@RequestParam("userId") Long userId,
+                           @RequestParam("bizType") BizType bizType) {
+        permissionService.permissionCheck(userId, bizType);
+    }
+
 }

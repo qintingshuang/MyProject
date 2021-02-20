@@ -16,13 +16,6 @@ import java.lang.annotation.Annotation;
  **/
 @Slf4j
 @Service
-//public class UserEmailService implements ApplicationListener<UserRegisterEvent> {
-//
-//    @Override
-//    public void onApplicationEvent(UserRegisterEvent event) {
-//      log.info(event.getUserName()+"：发送邮件");
-//    }
-//}
 public class UserEmailService{
 
     @Order(1)
