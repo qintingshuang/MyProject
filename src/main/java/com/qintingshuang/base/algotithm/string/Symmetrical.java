@@ -1,4 +1,4 @@
-package com.qintingshuang.base.algotithm.String;
+package com.qintingshuang.base.algotithm.string;
 
 import java.util.HashSet;
 
@@ -75,7 +75,7 @@ public class Symmetrical {
         System.err.println(longestPalindrome(a));
 
 
-//        String a="level";
+//        string a="level";
 
 
     }

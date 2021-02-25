@@ -46,12 +46,12 @@ public enum Singleton_enum {
  *         return (Singleton_enum[])$VALUES.clone();
  *     }
  *
- *     public static Singleton_enum valueOf(String name)
+ *     public static Singleton_enum valueOf(string name)
  *     {
  *         return (Singleton_enum)Enum.valueOf(qintingshuang.base.design.singleton/Singleton_enum, name);
  *     }
  *
- *     private Singleton_enum(String s, int i)
+ *     private Singleton_enum(string s, int i)
  *     {
  *         super(s, i);
  *     }

@@ -1,4 +1,4 @@
-package com.qintingshuang.base.algotithm.String;
+package com.qintingshuang.base.algotithm.string;
 
 import java.util.Scanner;
 

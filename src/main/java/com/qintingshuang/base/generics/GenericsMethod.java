@@ -47,7 +47,7 @@ public class GenericsMethod<E> {
     }
 
 //    错误写法
-//    private  static String  getDtoErr(E dto){
+//    private  static string  getDtoErr(E dto){
 //    }
 
 
