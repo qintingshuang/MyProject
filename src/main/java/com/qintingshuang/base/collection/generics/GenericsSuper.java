@@ -1,4 +1,4 @@
-package com.qintingshuang.base.generics;
+package com.qintingshuang.base.collection.generics;
 
 import java.util.ArrayList;
 import java.util.Iterator;

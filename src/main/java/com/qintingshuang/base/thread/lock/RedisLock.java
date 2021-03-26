@@ -1,4 +1,4 @@
-package com.qintingshuang.base.lock;
+package com.qintingshuang.base.thread.lock;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.RedisStringCommands;
