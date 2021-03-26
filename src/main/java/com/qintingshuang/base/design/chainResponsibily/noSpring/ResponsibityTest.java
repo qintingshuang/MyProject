@@ -5,7 +5,7 @@ package com.qintingshuang.base.design.chainResponsibily.noSpring;
  * @create 2021-03-25 16:33
  * @description 责任链测试
  **/
-public class ResponsibilityTest {
+public class ResponsibityTest {
 
     public static void main(String[] args) {
         LeaveRequest leaveRequest = new LeaveRequest(16,"qin");

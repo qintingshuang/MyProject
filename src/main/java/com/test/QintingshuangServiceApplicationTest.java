@@ -1,6 +1,7 @@
 package com.test;
 
 import com.qintingshuang.QintingshuangServiceApplication;
+import com.qintingshuang.base.design.chainResponsibily.nodeControl.ResponsibityService;
 import com.qintingshuang.base.design.chainResponsibily.outControl.ControlService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -22,10 +23,19 @@ public class QintingshuangServiceApplicationTest {
     @Autowired
     ControlService responsibily;
 
+    @Autowired
+    ResponsibityService responsibityService;
+
 
     @Test
-    public  void  responsibilyTest(){
+    public void responsibilyTest() {
         responsibily.mockedClient();
+    }
+
+
+    @Test
+    public void nodeResponsibityService() {
+        responsibityService.sendRequest();
     }
 
 }
