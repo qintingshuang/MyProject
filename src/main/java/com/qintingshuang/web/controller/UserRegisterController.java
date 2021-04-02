@@ -46,4 +46,5 @@ public class UserRegisterController {
         permissionService.permissionCheck(userId, bizType);
     }
 
+
 }

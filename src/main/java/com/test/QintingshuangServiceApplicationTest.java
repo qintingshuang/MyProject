@@ -3,12 +3,16 @@ package com.test;
 import com.qintingshuang.QintingshuangServiceApplication;
 import com.qintingshuang.base.design.chainResponsibily.nodeControl.ResponsibityService;
 import com.qintingshuang.base.design.chainResponsibily.outControl.ControlService;
+import com.qintingshuang.base.design.strategic.PermissionService;
+import com.qintingshuang.base.design.strategic.PermissionServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import javax.annotation.Resource;
 
 /**
  * @author qintingshuang
@@ -26,6 +30,9 @@ public class QintingshuangServiceApplicationTest {
     @Autowired
     ResponsibityService responsibityService;
 
+    @Autowired
+    PermissionService permissionService;
+
 
     @Test
     public void responsibilyTest() {
@@ -36,6 +43,12 @@ public class QintingshuangServiceApplicationTest {
     @Test
     public void nodeResponsibityService() {
         responsibityService.sendRequest();
+    }
+
+    @Test
+    public  void  asyncTestService() throws InterruptedException {
+        System.err.println(Thread.currentThread().getName());
+        permissionService.asyncTest();
     }
 
 }

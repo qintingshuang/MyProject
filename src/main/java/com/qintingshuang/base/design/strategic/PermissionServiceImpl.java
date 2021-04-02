@@ -1,6 +1,7 @@
 package com.qintingshuang.base.design.strategic;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
@@ -27,5 +28,16 @@ public class PermissionServiceImpl implements PermissionService {
                 handler.permissionCheck(userId,bizType);
             }
         }
+    }
+
+
+    /**
+     *test @async
+     */
+    @Async
+    @Override
+    public void asyncTest() throws InterruptedException {
+        System.err.println(Thread.currentThread().getName());
+        Thread.sleep(1000);
     }
 }

@@ -1,5 +1,10 @@
 package com.qintingshuang.base.thread.pool;
 
+import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.AsyncConfigurer;
+import org.springframework.scheduling.annotation.EnableAsync;
+
 import java.util.concurrent.*;
 
 /**
@@ -9,7 +14,10 @@ import java.util.concurrent.*;
  * 包括流程图
  * 线程池是如何运转的
  */
-public class ThreadPoolExecutorDemo {
+
+@EnableAsync
+@Configuration
+public class ThreadPoolExecutorDemo implements AsyncConfigurer {
 
 
     /**
@@ -49,6 +57,13 @@ public class ThreadPoolExecutorDemo {
 
     }
 
+
+    @Override
+    public Executor getAsyncExecutor() {
+        return threadPool;
+    }
+
+
     public static void main(String[] args) {
         for (int i = 0; i < 10000; i++) {
             threadPool.execute(() -> {
@@ -65,7 +80,12 @@ public class ThreadPoolExecutorDemo {
         threadPool.shutdown();
     }
 
-
+     @Override
+     public   AsyncUncaughtExceptionHandler getAsyncUncaughtExceptionHandler() {
+        return (ex,method,params) ->{
+            ex.printStackTrace();
+        } ;
+    }
 }
 
 

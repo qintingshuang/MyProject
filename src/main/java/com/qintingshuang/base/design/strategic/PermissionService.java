@@ -10,4 +10,6 @@ public interface PermissionService {
 
     void permissionCheck(Long userId,BizType bizType);
 
+    void  asyncTest() throws InterruptedException;
+
 }
