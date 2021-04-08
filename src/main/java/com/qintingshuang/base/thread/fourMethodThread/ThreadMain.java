@@ -19,8 +19,8 @@ public class ThreadMain {
 //        log.info("创建了两个线程");
 
 
-        new  RunableInterface("kevin",18);
-        new  RunableInterface("tony",20);
+        new RunnableTask("kevin",18);
+        new RunnableTask("tony",20);
 
     }
 

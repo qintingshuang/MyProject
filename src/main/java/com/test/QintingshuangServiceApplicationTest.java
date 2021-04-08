@@ -51,4 +51,12 @@ public class QintingshuangServiceApplicationTest {
         permissionService.asyncTest();
     }
 
+
+    @Test
+    public  void  exceptionTest() throws InterruptedException {
+        String aaa=null;
+        if(aaa.equals("22222")){
+
+        }
+    }
 }
