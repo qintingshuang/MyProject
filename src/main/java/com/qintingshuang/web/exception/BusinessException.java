@@ -13,7 +13,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class BusinessException extends  RuntimeException {
 
-    private ErrorEnum errorEnum;
+    private ErrorEnum  errorEnum;
 
 
     /**
@@ -22,6 +22,6 @@ public class BusinessException extends  RuntimeException {
      */
     @Override
     public String getMessage() {
-        return this.errorEnum.getDescription();
+        return this.errorEnum.getCode()+":"+this.errorEnum.getDescription();
     }
 }

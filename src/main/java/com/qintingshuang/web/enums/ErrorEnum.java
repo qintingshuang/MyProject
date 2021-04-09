@@ -22,7 +22,7 @@ public enum ErrorEnum {
 
     private String code;
 
-    private String description;
+     private  String  description;
 
     /**
      * 自定义描述
