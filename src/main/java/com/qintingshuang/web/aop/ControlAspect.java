@@ -37,8 +37,10 @@ public class ControlAspect {
     @Autowired
     HttpServletRequest request1;
 
+    /**
+     * 线程标记
+     */
     ThreadLocal<String> tag=new ThreadLocal<>();
-
 
     /**
      * 切点pointCut
@@ -100,6 +102,11 @@ public class ControlAspect {
                 tag.get(),methodName, date, paramStr, url, ip, httpMethod, sb.toString());
     }
 
+    /**
+     * 接口返回
+     * @param joinPoint
+     * @param response
+     */
     @AfterReturning(value = "executeController()", returning = "response")
     public void doAfterReturn(JoinPoint joinPoint, Object response) {
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
@@ -113,6 +120,11 @@ public class ControlAspect {
         log.info("标记{},结束执行{}方法,结束时间:{},返回值为：{}",tag.get(), methodName, date, message);
     }
 
+    /**
+     * 异常捕获
+     * @param joinPoint
+     * @param e
+     */
     @AfterThrowing(value = "executeController()",throwing = "e")
     public  void HandleThrowing(JoinPoint joinPoint,Exception e){
         //当前时间
