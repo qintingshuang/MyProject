@@ -1,11 +1,16 @@
 package com.qintingshuang.base.thread.lock;
 
+import io.lettuce.core.RedisClient;
 import lombok.extern.slf4j.Slf4j;
+import org.redisson.api.RedissonClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.RedisStringCommands;
 import org.springframework.data.redis.connection.ReturnType;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.types.Expiration;
+import org.springframework.stereotype.Component;
+
 import javax.annotation.Resource;
 import java.nio.charset.Charset;
 import java.util.concurrent.TimeUnit;
@@ -16,10 +21,14 @@ import java.util.concurrent.TimeUnit;
  * @description redis的分布式锁
  **/
 @Slf4j
+@Component
 public class RedisLock {
 
     @Resource
     StringRedisTemplate stringRedisTemplate;
+
+    @Resource
+    RedissonClient redission;
 
 
     public static final String UNLOCK_LUA;
@@ -84,4 +93,8 @@ public class RedisLock {
         }
         return false;
     }
-}
+
+
+    //todo  redission  读写锁 业务代码原子性
+
+ }

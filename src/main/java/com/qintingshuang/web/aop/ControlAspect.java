@@ -34,13 +34,17 @@ import java.util.UUID;
 @Component
 public class ControlAspect {
 
+
+    /**
+     * 不会有安全的问题，代理对象，每次都重新拿到的当前的HttpServletRequest对象
+     */
     @Autowired
-    HttpServletRequest request1;
+    HttpServletRequest request;
 
     /**
      * 线程标记
      */
-    ThreadLocal<String> tag=new ThreadLocal<>();
+    ThreadLocal<String> tag = new ThreadLocal<>();
 
     /**
      * 切点pointCut
@@ -58,14 +62,12 @@ public class ControlAspect {
      */
     @Before("executeController()")
     public void before(JoinPoint joinPoint) {
-        tag.set(UUID.randomUUID().toString());
+        tag.set(UUID.randomUUID().toString().replace("-", ""));
         JSONObject params = new JSONObject();
         //当前时间
-        String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
-        //获取当前请求
-        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
-        // 判定注入的request是否有并发的问题
-        log.info("方法内的requet:{},注入的request1:{}", request.getMethod(), request1.getMethod());
+        String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
+        //获取当前请求,这个可以使用注入的形式
+//        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
         //获取方法签名
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         //获取该方法
@@ -98,12 +100,13 @@ public class ControlAspect {
 
         } while (headerNames.hasMoreElements());
         sb.append("}");
-        log.info("标记{}，开始执行{}方法,开始时间:{},参数{},URL:{},地址:{},方式：{},请求头：{}",
-                tag.get(),methodName, date, paramStr, url, ip, httpMethod, sb.toString());
+        log.info("标记:{},开始执行:{}方法,开始时间:{},URL:{},方式:{},地址:{}\n请求参数:{}",
+                tag.get(), methodName, date, url, httpMethod, ip, paramStr);
     }
 
     /**
      * 接口返回
+     *
      * @param joinPoint
      * @param response
      */
@@ -112,27 +115,28 @@ public class ControlAspect {
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         Method method = methodSignature.getMethod();
         //当前时间
-        String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
         //方法名
         String methodName = method.getName();
         //响应
         String message = JSONObject.toJSONString(response);
-        log.info("标记{},结束执行{}方法,结束时间:{},返回值为：{}",tag.get(), methodName, date, message);
+        log.info("标记:{},结束执行{}方法,结束时间:{},响应参数:{}", tag.get(), methodName, date, message);
     }
 
     /**
      * 异常捕获
+     *
      * @param joinPoint
      * @param e
      */
-    @AfterThrowing(value = "executeController()",throwing = "e")
-    public  void HandleThrowing(JoinPoint joinPoint,Exception e){
+    @AfterThrowing(value = "executeController()", throwing = "e")
+    public void HandleThrowing(JoinPoint joinPoint, Exception e) {
         //当前时间
-        String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
 
         MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();
         // 方法名
         String methodName = methodSignature.getMethod().getName();
-        log.info("标记{},结束执行{}方法,结束时间:{},错误码：{}",tag.get(), methodName, date,  e.getMessage());
+        log.info("标记:{},结束执行{}方法,结束时间:{},错误码:{}", tag.get(), methodName, date, e.getMessage());
     }
 }

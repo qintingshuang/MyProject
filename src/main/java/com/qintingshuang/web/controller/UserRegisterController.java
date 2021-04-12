@@ -1,6 +1,7 @@
 package com.qintingshuang.web.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.qintingshuang.base.design.chainResponsibily.outControl.Task;
 import com.qintingshuang.base.design.observed.UserService;
 import com.qintingshuang.base.design.strategic.BizType;
 import com.qintingshuang.base.design.strategic.PermissionService;
@@ -10,11 +11,9 @@ import com.qintingshuang.web.exception.BusinessException;
 import com.qintingshuang.web.exception.BusinessManage;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -26,6 +25,7 @@ import static com.qintingshuang.web.enums.ErrorEnum.CUSTOMIZE_EXCEPTION;
  * @create 2021-02-10 17:47
  * @description
  **/
+@Slf4j
 @Api(tags = "设计模式")
 @RequestMapping("/qintingshuang/v1.0")
 @RestController
@@ -54,7 +54,6 @@ public class UserRegisterController {
     }
 
 
-
     @ApiOperation("异常验证")
     @GetMapping("/user/exceptionAdvice")
     public QinResponse permission() {
@@ -64,6 +63,22 @@ public class UserRegisterController {
 //
 //        }
 
+        BusinessManage.invalidIf(true, BUSINESS_EXCEPTION, new RunnableTask());
+        return QinResponse.success();
+    }
+
+
+    @ApiOperation("AOP验证")
+    @PostMapping("/user/aopTest")
+    public QinResponse aopTest(@RequestHeader("param1") String  param1,
+                               @RequestParam("param2") String  param2,
+                               @RequestBody Task task) {
+
+//        String aaa=null;
+//        if(aaa.equals("22222")){
+//
+//        }
+        log.info(Thread.currentThread().getName());
         BusinessManage.invalidIf(true,BUSINESS_EXCEPTION,new RunnableTask());
         return QinResponse.success();
     }

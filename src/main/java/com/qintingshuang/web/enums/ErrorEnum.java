@@ -18,8 +18,8 @@ public enum ErrorEnum {
     SYSTEM_EXCEPTION("000001","系统异常"),
     JSON_PARSE_EXCEPTION("000002","请求参数报错"),
     CUSTOMIZE_EXCEPTION("000003","自定义错误，@Valid替换"),
-    BUSINESS_EXCEPTION("000004","业务报错") ;
-
+    BUSINESS_EXCEPTION("000004","业务报错") ,
+    DUPLICATE_EXCEPTION("000005","密等报错");
     private String code;
 
      private  String  description;
