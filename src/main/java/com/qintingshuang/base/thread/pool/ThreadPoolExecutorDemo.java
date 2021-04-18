@@ -33,7 +33,7 @@ public class ThreadPoolExecutorDemo implements AsyncConfigurer {
     /**
      * 最大线程数
      */
-    private static final int QUEUE_LENGTH = 100;
+    private static final int QUEUE_LENGTH = 1000;
 
     /**
      * 线程超时时间

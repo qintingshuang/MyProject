@@ -3,6 +3,8 @@ package com.test;
 import com.qintingshuang.QintingshuangServiceApplication;
 import com.qintingshuang.base.design.chainResponsibily.nodeControl.ResponsibityService;
 import com.qintingshuang.base.design.chainResponsibily.outControl.ControlService;
+import com.qintingshuang.base.design.factory.HpMouseFactory;
+import com.qintingshuang.base.design.factory.MouseFactory;
 import com.qintingshuang.base.design.strategic.PermissionService;
 import com.qintingshuang.base.design.strategic.PermissionServiceImpl;
 import lombok.extern.slf4j.Slf4j;
@@ -13,6 +15,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author qintingshuang
@@ -33,6 +39,11 @@ public class QintingshuangServiceApplicationTest {
     @Autowired
     PermissionService permissionService;
 
+    @Autowired
+    Map<String, MouseFactory> map;
+
+    @Autowired
+    List<MouseFactory> list;
 
     @Test
     public void responsibilyTest() {
@@ -46,17 +57,25 @@ public class QintingshuangServiceApplicationTest {
     }
 
     @Test
-    public  void  asyncTestService() throws InterruptedException {
+    public void asyncTestService() throws InterruptedException {
         System.err.println(Thread.currentThread().getName());
         permissionService.asyncTest();
     }
 
 
     @Test
-    public  void  exceptionTest() throws InterruptedException {
-        String aaa=null;
-        if(aaa.equals("22222")){
+    public void exceptionTest() throws InterruptedException {
+        String aaa = null;
+        if (aaa.equals("22222")) {
 
         }
+    }
+
+    @Test
+    public void MouseFactory() {
+        MouseFactory mouseFactory = map.get("hpMouseFactory");
+        mouseFactory.getMousePrintln();
+        mouseFactory.getMouse();
+        System.err.println(map.size() + list.size());
     }
 }

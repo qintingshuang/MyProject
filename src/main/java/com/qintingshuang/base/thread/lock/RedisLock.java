@@ -27,8 +27,8 @@ public class RedisLock {
     @Resource
     StringRedisTemplate stringRedisTemplate;
 
-    @Resource
-    RedissonClient redission;
+//    @Resource
+//    RedissonClient redission;
 
 
     public static final String UNLOCK_LUA;
