@@ -1,18 +1,12 @@
 package com.qintingshuang.base.design.template;
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.qintingshuang.base.thread.pool.ThreadPoolExecutorDemo;
-import org.springframework.beans.factory.annotation.Value;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
-import java.util.concurrent.FutureTask;
 
 /**
  * @author qintingshuang
@@ -21,53 +15,52 @@ import java.util.concurrent.FutureTask;
  * 这个模板，利用线程池，搭整个业务执行框架
  * 可以做批量处理
  **/
-public abstract class AbstractTaskTemplate<Request, Response> {
+public abstract class AbstractTaskTemplate<T> {
 
 
     /**
      * 加载任务
+     * 也可以作为拼接业务实体JSON
      *
      * @return
      */
-    protected abstract List<Request> loadTask(TaskRequest request);
+    protected abstract List<T> loadTask(TaskRequest request);
 
 
     /**
      * 任务执行
-     *
      * @param request
      * @return
      */
-    public Map<Request, Response> execute(TaskRequest request) throws ExecutionException, InterruptedException {
-
-        List<Request> tasks = loadTask(request);
-        Map<Request, Response> responseMap = new HashMap<>();
-        Map<Request, Future<TaskResult>> futureTask = new HashMap<>();
+    public Map<T, TaskResult> execute(TaskRequest request) throws ExecutionException, InterruptedException {
+        System.err.println("execute:" + Thread.currentThread().getName());
+        List<T> tasks = loadTask(request);
+        Map<T, TaskResult> responseMap = new HashMap<>();
+        Map<T, Future<TaskResult>> futureTask = new HashMap<>();
         //任务执行
-        for (Request task : tasks) {
+        for (T task : tasks) {
             Future result = ThreadPoolExecutorDemo.threadPool.submit(() -> {
-                executeTask( task);
+                System.err.println("任务执行");
+                //如果需要返回值则使用return,如果不需要则不用return即可
+                return executeTask(task);
             });
             futureTask.put(task, result);
         }
         //任务结果获取
-        for (Map.Entry<Request, Future<TaskResult>> entry : futureTask.entrySet()) {
-            Request req = entry.getKey();
+        for (Map.Entry<T, Future<TaskResult>> entry : futureTask.entrySet()) {
+            T req = entry.getKey();
             TaskResult result = entry.getValue().get();
-            responseMap.put(req, (Response) result);
+            responseMap.put(req, result);
         }
         return responseMap;
     }
 
-
     /**
      * 自定义任务
+     * 具体执行业务规则
      *
      * @param domain
      * @return
      */
-    protected abstract Response executeTask(Request domain);
-
-
-
+    protected abstract TaskResult executeTask(T domain);
 }

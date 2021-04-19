@@ -7,6 +7,9 @@ import com.qintingshuang.base.design.factory.HpMouseFactory;
 import com.qintingshuang.base.design.factory.MouseFactory;
 import com.qintingshuang.base.design.strategic.PermissionService;
 import com.qintingshuang.base.design.strategic.PermissionServiceImpl;
+import com.qintingshuang.base.design.template.HpTask;
+import com.qintingshuang.base.design.template.TaskRequest;
+import com.qintingshuang.base.design.template.TaskResult;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,6 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutionException;
 
 /**
  * @author qintingshuang
@@ -44,6 +48,9 @@ public class QintingshuangServiceApplicationTest {
 
     @Autowired
     List<MouseFactory> list;
+
+    @Autowired
+    HpTask hpTask;
 
     @Test
     public void responsibilyTest() {
@@ -77,5 +84,16 @@ public class QintingshuangServiceApplicationTest {
         mouseFactory.getMousePrintln();
         mouseFactory.getMouse();
         System.err.println(map.size() + list.size());
+    }
+
+
+    @Test
+    public  void  HpTask() throws ExecutionException, InterruptedException {
+        TaskRequest request=new TaskRequest();
+        HashMap map=new  HashMap<String,String>();
+        map.put("31823515","hahahhah");
+        request.setParam(map);
+        Map<TaskRequest, TaskResult> taskMap= hpTask.execute(request);
+        System.err.println(taskMap);
     }
 }

@@ -1,5 +1,6 @@
 package com.qintingshuang.base.design.template;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
@@ -8,6 +9,7 @@ import lombok.Data;
  * @description 任务响应
  **/
 @Data
+@AllArgsConstructor
 public class TaskResult<T> {
 
     /**
