@@ -33,6 +33,7 @@ public class HpTask extends AbstractTaskTemplate<String> {
     }
 
 
+
     @Override
     protected TaskResult executeTask(String domain) {
         System.err.println("executeTask:" + Thread.currentThread().getName() + "数据落地！！！");
