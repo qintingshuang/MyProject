@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29aef865-a943-4411-b296-c3fdbf02067f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/DellTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/AbstractTaskTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/AbstractTaskTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/HpTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/HpTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/TaskModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/TaskResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/TaskResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/QintingshuangServiceApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/QintingshuangServiceApplicationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/HpTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="103">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -592,7 +587,7 @@
       <workItem from="1618284935650" duration="33582000" />
       <workItem from="1618566160329" duration="734000" />
       <workItem from="1618800531059" duration="33000" />
-      <workItem from="1618800651010" duration="5716000" />
+      <workItem from="1618800651010" duration="8376000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式之枚举单例">
       <created>1573310843598</created>
@@ -769,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618752770369</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="1.模板模式，可以借鉴版本">
+      <created>1618820623291</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1618820623291</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -805,7 +807,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294805000" />
+    <option name="totallyTimeSpent" value="297465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,16 +838,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32627866" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.59611994" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.47266313" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3274648" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.6578483" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" weight="0.329806" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="bottom" id="Spring" order="16" weight="0.329806" />
-      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32922536" />
+      <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32804233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -930,7 +932,8 @@
     <MESSAGE value="1.controller切面" />
     <MESSAGE value="1.日志切面与密等切面" />
     <MESSAGE value="1.模板模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.模板模式" />
+    <MESSAGE value="1.模板模式，可以借鉴版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.模板模式，可以借鉴版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1125,7 +1128,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/HpTask.java</url>
-          <line>37</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
@@ -1543,8 +1546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qintingshuang/base/design/template/HpTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="103">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
