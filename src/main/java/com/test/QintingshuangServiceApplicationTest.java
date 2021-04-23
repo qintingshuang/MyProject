@@ -10,6 +10,7 @@ import com.qintingshuang.base.design.strategic.PermissionServiceImpl;
 import com.qintingshuang.base.design.template.HpTask;
 import com.qintingshuang.base.design.template.TaskRequest;
 import com.qintingshuang.base.design.template.TaskResult;
+import com.qintingshuang.web.common.EntityTest;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -52,6 +53,12 @@ public class QintingshuangServiceApplicationTest {
     @Autowired
     HpTask hpTask;
 
+    /**
+     * @Autowired根据类型注入    @Resource根据名称注入的
+     */
+    @Autowired
+    EntityTest testBean;
+
     @Test
     public void responsibilyTest() {
         responsibily.mockedClient();
@@ -88,12 +95,19 @@ public class QintingshuangServiceApplicationTest {
 
 
     @Test
-    public  void  HpTask() throws ExecutionException, InterruptedException {
-        TaskRequest request=new TaskRequest();
-        HashMap map=new  HashMap<String,String>();
-        map.put("31823515","hahahhah");
+    public void HpTask() throws ExecutionException, InterruptedException {
+        TaskRequest request = new TaskRequest();
+        HashMap map = new HashMap<String, String>();
+        map.put("31823515", "hahahhah");
         request.setParam(map);
-        Map<TaskRequest, TaskResult> taskMap= hpTask.execute(request);
-        System.err.println(taskMap);
+//        Map<TaskRequest, TaskResult> taskMap= hpTask.execute(request);
+//        System.err.println(taskMap);
+    }
+
+    @Test
+    public void configTest(){
+
+
+        System.err.println("获取对象：" + testBean.getUsername());
     }
 }
