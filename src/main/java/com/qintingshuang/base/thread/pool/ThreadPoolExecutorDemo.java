@@ -45,6 +45,12 @@ public class ThreadPoolExecutorDemo implements AsyncConfigurer {
      */
     public static ThreadPoolExecutor threadPool;
 
+
+    /**
+     * 延时调度池
+     */
+    public static ScheduledThreadPoolExecutor scheduleExecutor;
+
     static {
         threadPool = new ThreadPoolExecutor(
                 CORE_THREAD_NUM,
@@ -55,6 +61,8 @@ public class ThreadPoolExecutorDemo implements AsyncConfigurer {
                 new ThreadPoolExecutor.AbortPolicy()
         );
 
+        scheduleExecutor=new ScheduledThreadPoolExecutor(2,
+                new ThreadPoolExecutor.DiscardPolicy());
     }
 
 
@@ -64,27 +72,13 @@ public class ThreadPoolExecutorDemo implements AsyncConfigurer {
     }
 
 
-    public static void main(String[] args) {
-        for (int i = 0; i < 10000; i++) {
-            threadPool.execute(() -> {
-                System.err.println("线程名称为：" + Thread.currentThread().getName());
-            });
-        }
 
 
-        /**
-         * 线程池要不要销毁掉？
-         * 1.对于操作不是那么频繁的，比如文件下载，网络流媒体，使用线程池的目的也是为了快一些，这种是需要销毁的，否则占用资源
-         * 2.对于操作比较频繁的，并发量比较高的，这个就不需要销毁线程池了
-         */
-        threadPool.shutdown();
-    }
-
-     @Override
-     public   AsyncUncaughtExceptionHandler getAsyncUncaughtExceptionHandler() {
-        return (ex,method,params) ->{
+    @Override
+    public AsyncUncaughtExceptionHandler getAsyncUncaughtExceptionHandler() {
+        return (ex, method, params) -> {
             ex.printStackTrace();
-        } ;
+        };
     }
 }
 

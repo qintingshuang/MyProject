@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.support.atomic.RedisAtomicLong;
+import org.springframework.stereotype.Component;
+
 import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
@@ -17,6 +19,7 @@ import java.util.concurrent.TimeUnit;
  * @description redis工具类
  **/
 @Slf4j
+@Component
 public class RedisUtils {
 
     @Resource
@@ -364,6 +367,20 @@ public class RedisUtils {
         RedisAtomicLong entityIdCounter = new RedisAtomicLong(key, stringRedisTemplate.getConnectionFactory());
         Long increment = entityIdCounter.getAndIncrement();
         return increment;
+    }
+
+
+    /**
+     * @param key
+     * @param
+     * @return
+     * @description 获取自增值-（默认自增值为1),并设置当天23：59：59：999过期
+     * @date
+     */
+    public Long incr(String key, Date expireTime) {
+        RedisAtomicLong counter = new RedisAtomicLong(key, stringRedisTemplate.getConnectionFactory());
+        counter.expireAt(expireTime);
+        return counter.incrementAndGet();
     }
 
     public void rPush(String key, String value) {
